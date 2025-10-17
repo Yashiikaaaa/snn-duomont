@@ -139,7 +139,8 @@ const ContactForm = ({ contactmodal, setContactModal, leadSource }) => {
 
     try {
       const response = await fetch(
-        "https://google-campaign-leads-service-dot-iqol-crm.appspot.com",
+        "https://google-campaign-leads-service-dot-iqol-crm.uc.r.appspot.com/handleMultipleCampaignData",
+     
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
