@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Phone, Xmark, MenuScale } from "iconoir-react"; // Importing icons for phone, close, and menu
-import logo from "../../assets/navbar/snnlogo.png"; // Importing Prestige Logo
+import logo from "../../assets/navbar/nobacklogo.png"; // Importing Prestige Logo
 import { Link } from "react-router-dom"; // Importing Link for routing
  import arrow from "../../assets/navbar/blackarrow.png";
 
